@@ -1,0 +1,131 @@
+ls
+ipconfig
+ifconfig
+man
+apropos ip
+apropos if
+apropos ifc
+ifcfc
+ifcfg
+sudo ifcfg
+sudo ifconfig
+ifconfig
+apt install net-tools
+sudo apt install net-tools
+ifconfig
+cat /proc/cpuingo
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep -i 'model name'
+cat /proc/cpuinfo | grep -i 'model name' | head
+cat /proc/cpuinfo | grep -i 'model name' | head -n1
+echo $HOME
+ssh-keygen
+ll
+cd .ssh/
+ls
+cat id_rsa.pub 
+history
+ifconfig
+cd ..
+ls
+cd repogit/
+ls
+git clone git@github.com:JoniBe/TP_AySO.git
+ls
+cd TP_AySO/
+ls
+grep -i Home_url /etc/os-release
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git status
+git config --global user.email 'lubo.jn@gmail.com'
+git config --global user.name 'JoniBe'
+git commit -m 'ADD: agregado 1er ejercicio sobre datos_usuario.txt'
+git status
+cat /proc/cpuinfo
+grep -i 'model name' /proc/cpuinfo
+grep -i 'model name' /proc/cpuinfo | head -n1
+grep -i 'model name' /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m 'feat: Añadiendo información de CPU'
+git status
+cat /etc/passwrd
+cat /etc/passwd
+man grep 
+grep -v 'nologin' /etc/passwd
+grep -v 'nologin' /etc/passwd | head -n1
+grep -v 'nologin' /etc/passwd | head 
+grep -v 'nologin' /etc/passwd | head | sort -t: -k7
+man sort
+grep -v 'nologin' /etc/passwd | head | sort -t: -k7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+git status
+git add .
+git commit -m 'ADD: Listado de usuarios ordenada'
+git status
+man man 
+apropos 'dump traffic'
+apropos 'dump traffic' > comando_dump_net.txt
+cat comando_dump_net.txt 
+man apropos
+man apropos | grep 'apropos'
+man apropos | grep 'apropos' | head
+man apropos | grep 'apropos' | head -n1
+man apropos | head -n1
+man apropos | grep 'apropos' | head -n1
+man apropos | grep 'apropos' | head -n1 >> comando_dump_net.txt 
+cat comando_dump_net.txt 
+rm comando_dump_net.txt 
+ls
+ll $HOME
+ls -la $HOME
+wc -l
+wc -l << EOF
+linea1
+linea2
+linea3
+EOF
+
+apropos 'dump traffic' > comando_dump_net.txt
+cat comando_dump_net.txt 
+man apropos | grep 'apropos' | head -n1
+clear
+echo "apropos" >> comando_dump_net.txt 
+cat comando_dump_net.txt 
+git status
+git add .
+git status
+git commit -m 'ADD: Comando para capturar y analizar el tráfico de red.'
+git status
+cat README.md
+clear
+wc -l << EOF
+linea1
+linea2
+linea3
+eof
+EOF
+
+cat << EOF > README.md
+Alumno: Jonathan Nahuel Lubo
+División: 313
+Turno: Noche
+EOF
+
+cat README.md 
+git status
+git add .
+git commit -m 'docs: se agregó nombre de alumno, división y turno.'
+git status
+history -a
+cat \$HOME/.bash_history
+history -h
+history -help
+history
+ls -la $HOME
+cat /\$HOME/.bash_history
+cat /$HOME/.bash_history
+history -a
